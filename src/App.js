@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Section from './Components/Section';
+import CoursesPage from './Components/CoursePage';
+import Navbar from './Components/Navbar';
+import PricingPlans from './Components/PricingPlans';
+import Footer from './Components/Footer';
+import Carousel from './Components/Carousel';
+import CurriculumCreators from './Components/CurriculumCreators';
+import LearningOutcomes from './Components/LearningOutcomes';
+import AboutEplanet from './Components/AboutEplanet';
+import ComparisonTable from './Components/ComparisonTable';
+import CarouselDisplay from './Components/CarouselDisplay';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='body'>
+      <Navbar />
+      <Section />
+      <CoursesPage/>
+      <LearningOutcomes />
+      <Carousel />
+      <PricingPlans />
+      <ComparisonTable />
+      <CurriculumCreators />
+      <CarouselDisplay />
+      <AboutEplanet />
+      <Footer />
     </div>
   );
 }
-
 export default App;

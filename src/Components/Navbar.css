@@ -1,0 +1,125 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(14, 210, 20, 0.1);
+}
+
+.dropdown button {
+    background-color: transparent;
+}
+
+img {
+    margin-top: 20px;
+    height: auto;
+    width: 20%;
+}
+
+.joinClass {
+    border: 3px solid #008000;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+
+}
+
+.joinClass a {
+    text-decoration: none;
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.bootTrail {
+    background-color: green;
+    padding: 17px;
+    margin: 10px;
+    font-size: large;
+}
+
+.bt {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.green-text {
+    color: green;
+    font-weight: bold;
+}
+
+.dropdown-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+
+.dropdown-button {
+    padding: 10px 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* .dropdown-button:hover {
+    background-color: #e76f51;
+  } */
+
+.dropdown-content {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    min-width: 200px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4f4f4;
+}
+
+.dropdown-content a span {
+    font-size: 14px;
+    color: #777;
+}
+
+.new-tag {
+    background-color: #ffcc00;
+    color: black;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+/* Show the dropdown content when hovering over the dropdown container */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-icon {
+    color: #e76f51;
+  }

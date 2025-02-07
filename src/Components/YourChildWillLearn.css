@@ -1,0 +1,41 @@
+.your-child-will-learn {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .your-child-will-learn h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .skill-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e8f7fb;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+  }
+  

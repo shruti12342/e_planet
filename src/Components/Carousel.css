@@ -1,0 +1,133 @@
+.carousel-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+  position: relative;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-card {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.carousel-card img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+.carousel-details {
+  max-width: 500px;
+}
+
+.carousel-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.carousel-subtitle {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.carousel-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.carousel-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.badge-icon {
+  margin-right: 5px;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background: #f0f0f0;
+}
+
+.carousel-prev {
+  left: -50px;
+}
+
+.carousel-next {
+  right: -50px;
+}
+
+.carousel-dots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot:hover {
+  background-color: #666;
+}
+
+.dot.active {
+  background-color: #333;
+}

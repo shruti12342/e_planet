@@ -1,0 +1,68 @@
+/* curriculumcreators.css */
+
+/* General container for the section */
+.curriculum-creators {
+    padding: 50px 20px;
+    background-color: #f7f9fc;
+    /* Light background for contrast */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Section heading */
+.curriculum-creators h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Creator cards container */
+.creators-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual creator card styling */
+.creator-card {
+    background-color: #fff;
+    /* White card for contrast */
+    border: 1px solid #ddd;
+    /* Subtle border for definition */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+    padding: 20px;
+    width: 200px;
+    /* Fixed width for consistency */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image styling */
+.creator-card .creator-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #0073e6;
+    /* Accent color border */
+}
+
+/* Name styling */
+.creator-card h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Title/description styling */
+.creator-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.4;
+}
