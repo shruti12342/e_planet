@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: auto;
+    padding: 10px;
+    color: rgb(79, 78, 78);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

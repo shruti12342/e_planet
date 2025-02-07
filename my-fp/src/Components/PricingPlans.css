@@ -1,0 +1,211 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styles */
+.pricing-header {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pricing-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pricing-header p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Grande', Verdana, sans-serif;
+    color: #555;
+    margin: 0;
+}
+
+/* Mode Selection Styles */
+.mode-selection {
+    display: flex;
+    justify-content: center;
+}
+
+.button-option {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-option h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0%;
+}
+
+.button-option p {
+    font-size: 14px;
+    color: #555;
+}
+
+.selected {
+    background-color: rgb(67, 177, 67);
+    color: white;
+    border-color: rgb(67, 177, 67);
+}
+.selected h3{
+    color: aliceblue;
+}
+
+
+/* Pricing Cards Styles */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.plan-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.plan-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.plan-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.plan-classes {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.curriculum {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.curriculum h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.curriculum ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.curriculum ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.view-details {
+    font-size: 14px;
+    color: #f56a1c;
+    text-decoration: none;
+}
+
+.view-details:hover {
+    text-decoration: underline;
+}
+
+.plan-price {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.buy-now-btn {
+    background-color: #f56a1c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    background-color: #d2551a;
+}
+
+/* Custom Radio Button Styles */
+.radio-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.radio-custom:hover {
+    border-color: #0056b3;
+}
+
+.radio-input:checked+.radio-custom {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.radio-input:checked+.radio-custom::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}

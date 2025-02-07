@@ -1,0 +1,49 @@
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(14, 210, 20, 0.1);
+}
+
+img {
+    margin-top: 20px;
+    height: auto;
+    width: 20%;
+}
+
+
+
+.active {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 30px;
+}
+
+.active a{
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
